@@ -1,5 +1,6 @@
 package org.example
 
+// it starts from high to low and in that case add the number otherwise subtract them
 fun romanToInt(romanString: String): Int {
     var convertedInt = 0
     for (index in romanString.indices) {
